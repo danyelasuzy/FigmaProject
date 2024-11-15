@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: roboto;
+  background-color: #d74949;
+}
+
+.main-container {
+  max-width: 1110px;
+  height: 100vh;
+  margin: auto;
+  background-color: #f3f3f3;
+}
+
+.line {
+  padding-top: 100px;
+  display: inline-block;
+}
+
+hr {
+  display: inline-block;
+  width: 49px;
+  height: 2px;
+  background-color: #d9d9d9;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.41px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  margin-right: 50px;
+  margin: top 28px;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 18.75px;
+  letter-spacing: 0.07em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+span {
+  color: #d74949;
+}
+
+p {
+  margin-top: 38px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.44px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.card-container {
+  position: relative;
+  width: 208px;
+  height: 328px;
+  margin-left: 50px;
+}
+
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+  width: 200px;
+  height: 300px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.4);
+}
+
+.photo img {
+  width: 100%;
+  height: 60%;
+  object-fit: contain;
+}
+
+h3 {
+  padding-top: 3px;
+  padding-left: 19px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+h4 {
+  padding-top: 3px;
+  padding-left: 19px;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.41px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.logo {
+  padding-top: 5px;
+  padding-left: 19px;
+}
+
+.logo img {
+  object-fit: contain;
+  width: 18px;
+  height: 18px;
+}
+
+.circle {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  background: #d9d9d9;
+  border-radius: 50%;
+  bottom: 0px;
+  right: 0px;
+}
+
+.footer {
+  font-weight: 700;
+  width: 100vw;
+  color: white;
+  background-color: #3a3a3a;
+  text-align: center;
+}
+
+.square {
+  margin-left: 780px;
+  width: 13px;
+  height: 27px;
+  background: #d9d9d9;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 20px;
+}
